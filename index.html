@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-app">
+        <div class="search-bar">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="checkWeatherBtn">
+                <img src="search-icon.png" alt="Search" />
+            </button>
+        </div>
+        <div id="weatherResult" class="weather-result">
+            <div class="weather-icon" id="weatherIcon">
+            
+            </div>
+            <div class="temperature" id="temperature">--°C</div>
+            <div class="city" id="cityName">City Name</div>
+            <div class="details">
+                <p>
+                    <img src="Humidity.png" alt="Humidity Icon" class="icon-small">
+                    <span id="humidity">--</span>%<br>Humidity
+                </p>
+                <p>
+                    <img src="Wind.png" alt="Wind Icon" class="icon-small">
+                    <span id="windSpeed">--</span> km/h<br>Wind Speed
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
